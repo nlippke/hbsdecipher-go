@@ -37,7 +37,7 @@ func main() {
 	filesOrDirectories := flag.Args()
 
 	if len(filesOrDirectories) == 0 {
-		_, _ = fmt.Fprintln(os.Stderr, "need at least one file or directory\n")
+		_, _ = fmt.Fprintln(os.Stderr, "need at least one file or directory")
 
 		flag.Usage()
 
